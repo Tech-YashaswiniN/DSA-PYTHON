@@ -50,5 +50,5 @@ my_queue.print_list()
 
 print("--------------------------------------------------------")
 
-print(
-my_queue.dequeue())
+print(my_queue.dequeue())
+print(my_queue.dequeue())
