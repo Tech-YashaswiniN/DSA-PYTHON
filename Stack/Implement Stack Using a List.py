@@ -2,6 +2,10 @@ class Stack:
     def __init__(self):
         self.stack_list = []
     
+    def print(self):
+        for i in range(len(self.stack_list)-1, -1, -1):
+            print(self.stack_list[i])
+    
     def push(self,item):
         self.stack_list.append(item)
 
@@ -25,6 +29,9 @@ stack.push(2)
 stack.push(3)
 stack.push(4)
 stack.push(5)
+
+stack.print()
+print("---------------------")
 
 print("Is empty: ",stack.is_empty())
 print("Top element is: ",stack.peek())
