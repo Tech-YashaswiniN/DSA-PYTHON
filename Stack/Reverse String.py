@@ -26,3 +26,4 @@ def reverse_string(string):
     return reversed_str
 
 print(reverse_string("Hello"))
+print(reverse_string("Stack"))
